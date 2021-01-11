@@ -3,7 +3,6 @@ module.exports = function (eleventyConfig) {
 
   //Tags implementation
   eleventyConfig.addCollection("tagList", function (collection) {
-    console.log(collection.blogs, collection, "coll");
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {
       if ("tags" in item.data) {
