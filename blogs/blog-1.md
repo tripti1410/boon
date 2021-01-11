@@ -1,8 +1,9 @@
 ---
 layout: layouts/post.njk
-title: Second blog
+title: First blog
 description: I am description
 date: 2021-01-10
+tag: ["#tag1"]
 ---
 
-Second blog content goes here
+Write content here
